@@ -38,12 +38,13 @@
         <input type="email" name="loginInfo" placeholder="your email" required>
 
         <label for="password">Password:</label>
-        <input type="password" name="loginInfo" minlength=10 required>
+        <input type="password" name="loginInfo" minlength=5 maxlength=10 required>
       </td>
     </tr>
 
     <tr>
       <td>
+        <label for="birthday">Birthday</label>
         <select name="birthday" id="month" required>
           <option value="">Month</option>
           <option value="January">January</option>
@@ -87,7 +88,7 @@
 
     <tr>
       <td>
-        I agree to the terms and conditions.
+        <label for="terms">I agree to the terms and conditions.</label>
         <input type="checkbox" name="terms" required>
       </td>
     </tr>
