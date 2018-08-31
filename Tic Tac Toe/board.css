@@ -1,0 +1,20 @@
+table {
+  margin: auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+.bottom-border {
+  border-bottom: solid;
+}
+
+.right-border {
+  border-right: solid;
+}
+
+h1 {
+text-align: center;
+}
