@@ -20,7 +20,6 @@ function factorial(number) {
   var myArray = [number];
 
   if (number === 0) {
-    console.log(1);
     return 1;
   } else {
     for (let count = number - 1; count > 0; count--) {
@@ -50,3 +49,14 @@ console.log(factorial(10));
 
 console.log("This should be 1");
 console.log(factorial(0));
+
+//function to replace kabab case with snake case
+
+function kebabToSnake (str) {
+  var res = str.replace("-", "_");
+  return res;
+}
+
+console.log(kebabToSnake("hello-world"));
+console.log(kebabToSnake("dogs-are-awesome"));
+console.log(kebabToSnake("blah"));
