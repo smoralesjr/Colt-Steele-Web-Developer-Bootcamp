@@ -30,7 +30,7 @@ var answer = myArray.shift();
 
 for ( let count = myArray.length; count > 0; count-- ){
 
-answer = answer * myArray.shift();
+answer *= myArray.shift();
 
 }
    
