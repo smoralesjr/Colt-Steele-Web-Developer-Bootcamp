@@ -53,7 +53,7 @@ console.log(factorial(0));
 //function to replace kabab case with snake case
 
 function kebabToSnake (str) {
-  var res = str.replace("-", "_");
+  var res = str.replace(/-/g, "_");
   return res;
 }
 
