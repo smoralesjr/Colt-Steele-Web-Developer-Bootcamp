@@ -17,18 +17,18 @@ console.log(isEven(87));
 //function to compute the factorial of a number.
 
 function factorial(number) {
-  var myArray = [number];
+  var myArray = [];
 
   if (number === 0) {
     return 1;
   } else {
-    for (let count = number - 1; count > 0; count--) {
+    for (let count = number; count > 0; count--) {
       myArray.push(count);
     }
 
 var answer = myArray.shift();
 
-for ( let count = myArray.length; count > 0; counts-- ){
+for ( let count = myArray.length; count > 0; count-- ){
 
 answer = answer * myArray.shift();
 
