@@ -28,7 +28,7 @@ function factorial(number) {
 
 var answer = myArray.shift();
 
-for ( let count = myArray.length; count > 0; count -- ){
+for ( let count = myArray.length; count > 0; counts-- ){
 
 answer = answer * myArray.shift();
 
