@@ -4,7 +4,13 @@ var input = prompt("What would you like to do?");
 
 while (input !== "quit") {
   if (input === "list") {
-    console.log(todos);
+
+    for (let count = 0; count < todos.length; count++) {
+
+      console.log(todos[count]);
+
+    }
+
   } else if (input === "new") {
     //ask for new todos
     let newTodo = prompt("Enter new todo: ");
@@ -13,6 +19,6 @@ while (input !== "quit") {
 
   }
   //start the loop over
-input = prompt("What would you like to do?");
+  input = prompt("What would you like to do?");
 }
 console.log("You've Quit!");
