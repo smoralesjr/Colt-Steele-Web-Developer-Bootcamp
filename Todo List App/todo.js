@@ -1,5 +1,5 @@
 //Creating empty array for todo list
-var todos = [];
+const todos = [];
 var input = prompt("What would you like to do?");
 
 //Function to create row of asterisks
