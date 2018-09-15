@@ -25,7 +25,7 @@ while (input !== "quit") {
     listTodos();
     let deleteNumber = prompt("Please enter the todo number to delete: ");
     deleteNumber = parseInt(deleteNumber);
-    deleteNumber += 1;
+    deleteNumber -= 1;
     todos.splice(deleteNumber, 1);
     listTodos();
   }
