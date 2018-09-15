@@ -2,6 +2,10 @@
 var todos = [];
 var input = prompt("What would you like to do?");
 
+//Function to create row of asterisks
+const createBar = function() {
+  console.log("*".repeat(45));
+}
 //function addTodo() to add to todo list
 
 const addTodo = function() {
@@ -15,18 +19,19 @@ const addTodo = function() {
 //function listTodos() to list todo items
 
 const listTodos = function() {
-  
-  if (todos.length === 0){
+
+  if (todos.length === 0) {
+    createBar();
     console.log("The list is empty. Nothing to list.");
-  } else{
-  console.log("**********");
-  for (let count = 0; count < todos.length; count++) {
+  } else {
+    createBar();
+    for (let count = 0; count < todos.length; count++) {
 
-    console.log((count + 1) + ". " + todos[count]);
+      console.log((count + 1) + ". " + todos[count]);
 
-  }
     }
-  console.log("**********");
+  }
+  createBar();
 }
 
 //function deleteTodos() to delete from todo list
