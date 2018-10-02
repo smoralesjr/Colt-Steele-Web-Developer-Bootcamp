@@ -118,4 +118,5 @@ var setSquares = function (){
   
 };
 
+setDifficulty(numbSquares);
 setSquares();
