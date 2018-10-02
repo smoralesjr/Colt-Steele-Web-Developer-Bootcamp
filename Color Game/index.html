@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Color Game</title>
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Color Game</title>
+  <link rel="stylesheet" type="text/css" href="colorGame.css">
+  <script src="colorGame.js" defer charset="utf-8"></script>
+
+</head>
+
+<body>
+  <h1>The Great <br>
+    <span id="colorDisplay"></span> <br> Color Game</h1>
+
+  <div id="stripe">
+    <button id="reset">New Colors</button>
+    <span id="message"></span>
+    <button id="easyBtn">Easy</button>
+    <button id="hardBtn" class="selected">Hard</button>
+  </div>
+  <div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+</body>
+
 </html>
